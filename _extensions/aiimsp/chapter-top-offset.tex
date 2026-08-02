@@ -1,0 +1,20 @@
+% chapter-top-offset.tex
+% Purpose:
+% Set the vertical starting position of every level-one heading in a
+% Quarto PDF that uses the KOMA-Script scrreprt document class.
+%
+% In scrreprt, Quarto/Pandoc converts level-one headings into \chapter.
+% KOMA-Script inserts its own vertical space before each chapter heading.
+% Changing \chapterheadstartvskip therefore controls that space directly,
+% without replacing or reconstructing the heading.
+%
+% The starred form of \vspace preserves the 1 cm space at the top of a page.
+% The distance is measured downward from the top of the text area (the top
+% margin boundary), not from the physical top edge of the paper.
+%
+% This leaves chapter numbering, appendix labels, table-of-contents entries,
+% bookmarks, identifiers, cross-references, colours, and alignment unchanged.
+%
+% Requirement: documentclass: scrreprt
+
+\renewcommand*{\chapterheadstartvskip}{\vspace*{-0.2cm}}

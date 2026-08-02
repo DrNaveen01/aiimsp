@@ -1,0 +1,22 @@
+\usepackage{tikz}
+\usepackage{atbegshi}
+
+\definecolor{aiimsolive}{RGB}{85,107,47}
+\AtBeginShipout{%
+  \AtBeginShipoutUpperLeft{%
+    \begin{tikzpicture}[remember picture, overlay]
+      \draw[color=aiimsolive,line width=2pt]
+        ([xshift=0.55in, yshift=-0.6in]current page.north west) rectangle
+        ([xshift=-0.5in, yshift=0.7in]current page.south east);
+    \end{tikzpicture}
+  }
+}
+
+\usepackage[
+  a4paper,
+  top=1.1in,
+  bottom=1.1in,
+  left=1.1in,
+  right=1.1in,
+  footskip=0.5in
+]{geometry}

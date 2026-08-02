@@ -1,0 +1,21 @@
+\pagestyle{empty}
+
+\AtBeginShipout{%
+  \ifnum\value{page}>1
+    \AtBeginShipoutUpperLeft{%
+      \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=south, font=\normalfont]
+          at ([xshift=0.5\paperwidth, yshift=0.8cm]current page.south west)
+          {\thepage};
+      \end{tikzpicture}
+    }%
+  \fi
+}
+
+\makeatletter
+\pretocmd{\@chapter}{\thispagestyle{empty}}{}{}
+\makeatother
+
+\makeatletter
+\let\ps@plain\ps@empty
+\makeatother

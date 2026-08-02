@@ -1,0 +1,40 @@
+title: Aiimsp
+author: Dr Naveen Suthar
+version: 1.1.0
+quarto-required: ">=1.8.0"
+contributes:
+  formats:
+    common:
+      mainfont: "Times New Roman"
+      sansfont: "Times New Roman"
+      mermaid: true
+      fontsize: 12pt
+      linestretch: 1.5
+      number-sections: true
+      toc-depth: 2
+      toc: false
+      keep-tex: true
+      secnumdepth: 3
+      fig-pos: "H"
+      tbl-pos: 'H'
+      csl: vancouver-superscript.csl
+      cite-method: citeproc
+      citeproc: true
+        
+    pdf:
+      pdf-engine: xelatex
+      documentclass: scrreprt
+      include-in-header: [packages.tex, border.tex, pagenumber_alignment.tex, chapter-top-offset.tex]
+      template-partials:
+        - partials/title.tex
+
+      format-resources:
+        - aiims_patna_logo.jpeg
+        - vancouver-superscript.csl
+        
+    html:
+      embed-resources: true
+
+  
+
+

@@ -1,0 +1,37 @@
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+# Quarto
+.quarto/
+_book/
+_site/
+_freeze/
+site_libs/
+
+# Rendered outputs
+*.pdf
+*.docx
+*.html
+!*.tex
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Operating-system files
+.DS_Store
+Thumbs.db

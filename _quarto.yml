@@ -1,0 +1,60 @@
+project:
+  type: book
+
+book:
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+  appendices: 
+    - hindi.qmd
+
+title: "Estimation Of Prevalence And Factors Associated With Developmental Delay In Under Five Children Residing In Selected Urban Slums Of Patna: A Community Based Cross Sectional Study"
+
+author: "Dr. Naveen Suthar"
+date: last-modified
+
+institute: "All India Institute of Medical Sciences"
+institute-short-name: AIIMS Patna
+city: "Patna"
+
+candidate:
+  name: "Dr. Naveen Suthar"
+  degree: "MD"
+  subject: "Community And Family Medicine"
+  session: "January 2023 – January 2026"
+  pronoun: he
+  signature: naveen.pdf
+
+hod:
+  name: Dr HOD Name
+  designation: Professor and Head of Department
+  signature: blank-signature.png
+  date: today
+  
+guide:
+  name: Dr Guide Name
+  designation: Professor 
+  signature: blank-signature.png
+  date: today
+
+coguide1:
+  name: Dr Co-Guide 1 Name
+  designation: Professor
+  signature: blank-signature.png
+  date: today
+
+coguide2:
+  name: Dr Co-Guide 2 Name
+  designation: Professor
+  signature: blank-signature.png
+  date: today
+
+
+department: "Department of Community And Family Medicine"
+
+format:
+  aiimsp-pdf: default
+
+bibliography: references.bib

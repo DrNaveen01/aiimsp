@@ -1,0 +1,26 @@
+% preamble_custom.tex — only for header inclusion
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[section]{placeins} % auto \FloatBarrier before each \section
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{fontspec} % Required for xelatex
+\setmainfont{Times New Roman}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{zref}
+\usepackage{atbegshi}
+\usepackage{etoolbox}
+\usepackage{color}
+\setstretch{1.5}
+\usepackage{pdfpages}
+\usepackage{fontspec}
+\newfontfamily\hindifont{Aparajita}
+\usepackage{longtable}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\makeatletter
+\patchcmd{\@sect}{\@mkboth}{{\thispagestyle{empty}}\@mkboth}{}{}
+\makeatother
+\pagenumbering{roman}
+

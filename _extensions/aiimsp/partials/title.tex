@@ -1,0 +1,55 @@
+% partials/title.tex  (single-page, contained title page)
+
+\def\maketitle{%
+  \thispagestyle{empty}%
+ \begingroup
+\setstretch{1.2}
+\def\gapS{\vskip 0.4cm plus 1fill}
+\def\gapM{\vskip 0.6cm plus 2fill}
+\def\gapL{\vskip 1cm plus 3fill}
+
+
+  \vbox to \textheight{%
+    \vfil
+    \begin{center}
+      \begin{minipage}{0.90\textwidth}
+        \centering
+
+        % Logo (make sure filename matches extension resource)
+% inside minipage after \centering
+\includegraphics[width=2.2in]{aiims_patna_logo.jpeg}
+
+\gapL
+{\LARGE\bfseries $title$ \par}
+
+\gapM
+{\large THESIS SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENT FOR THE AWARD OF THE DEGREE OF\par}
+
+\gapM
+{\fontsize{16}{20}\selectfont\bfseries $candidate.degree$ \par}
+{\fontsize{16}{20}\selectfont\bfseries ($candidate.subject$)\par}
+
+\gapM
+{\fontsize{14}{18}\selectfont\bfseries Under\par}
+{\fontsize{14}{18}\selectfont\bfseries $institute$, $city$\par}
+{\fontsize{14}{18}\selectfont\bfseries (SESSION: $candidate.session$)\par}
+
+\gapM
+{\fontsize{14}{18}\selectfont\bfseries By\par}
+{\fontsize{14}{18}\selectfont\bfseries $candidate.name$ \par}
+{\fontsize{14}{18}\selectfont\bfseries $department$\par}
+{\fontsize{14}{18}\selectfont\bfseries $institute$, $city$\par}
+      \end{minipage}
+    \end{center}
+    \vfil
+  }%
+ \endgroup
+  \clearpage
+}
+
+$if(title)$
+\title{$title$}
+$endif$
+
+
+

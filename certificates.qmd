@@ -1,0 +1,121 @@
+# Declaration By HOD {-}
+
+\begin{center}
+  \includegraphics[width=1.8in]{aiims_patna_logo.jpeg}\par
+  \vspace{1em}
+  {\Large\bfseries {{< meta institute >}}, {{< meta city >}}\par}
+\end{center}
+
+\vspace{1em}
+    This is to certify that \textbf{ {{< meta candidate.name >}} }, is a postgraduate resident of {{< meta candidate.degree >}} {{< meta candidate.subject >}} course for the session {{< meta candidate.session >}}, and {{< meta candidate.pronoun >}} has independantly carried out this thesis entitled \textbf{ “ {{< meta title >}} ” } for {{< meta candidate.degree >}} in {{< meta candidate.subject >}} of the {{< meta institute >}}, {{< meta city >}} in the {{< meta department >}}, under the guidance of {{< meta guide.name >}} . 
+
+\vfill
+
+\begin{center}
+\includegraphics[width=2.2in, angle=180]{assets/sign.png}\par
+\textbf{ {{< meta hod.name >}}  }\par
+{{< meta hod.designation >}} \par
+{{< meta department >}} \par
+{{< meta institute-short-name >}}
+\end{center}
+
+\vfill
+
+\noindent Date: {{< meta hod.date >}}\par
+\noindent Place: {{< meta institute >}} {{< meta city >}}
+
+
+# Declaration By Guide {-}
+
+
+\begin{center}
+  \includegraphics[width=1.8in]{aiims_patna_logo.jpeg}\par
+  \vspace{1em}
+  {\Large\bfseries {{< meta institute >}}, {{< meta city >}}\par}
+\end{center}
+
+\vspace{2em}
+
+I hereby declare that this thesis work entitled \textbf{ “ {{< meta title >}} ” }, which is being submitted as a requirement for the award of the {{< meta candidate.degree >}} degree in the subject of {{< meta candidate.subject >}} , is a  bonafide  work of the Postgraduate  student \textbf{ {{< meta candidate.name >}} } of {{< meta institute >}}, {{< meta city >}}. This thesis work is carried out under our constant supervision and guidance and to my full satisfaction.
+
+\vfill
+
+
+\begin{center}
+  \vspace{0.5em}
+\textbf{ {{< meta guide.name >}}  }\par
+{{< meta guide.designation >}} \par
+{{< meta department >}} \par
+{{< meta institute-short-name >}}
+\end{center}
+
+\vfill
+
+\noindent Date: {{< meta guide.date >}}\par
+\noindent Place: {{< meta institute >}} {{< meta city >}}
+
+
+# Declaration by Coguides {-}
+\begin{center}
+  \includegraphics[width=1.8in]{aiims_patna_logo.jpeg}\par
+  \vspace{1em}
+  {\Large\bfseries {{< meta institute >}}, {{< meta city >}}\par}
+\end{center}
+
+\vspace{2em}
+
+I hereby declare that this thesis work entitled \textbf{ “ {{< meta title >}} ” }, which is being submitted as a requirement for the award of the {{< meta candidate.degree >}} degree in the subject of {{< meta candidate.subject >}} , is a bonafide work of the Postgraduate student \textbf{ {{< meta candidate.name >}} } of {{< meta institute >}}, {{< meta city >}}. This thesis work is carried out under our constant supervision and guidance and to our full satisfaction.
+
+\vfill
+
+|  |  |  |
+|---------------------------|------------------|---------------------------|
+| \textbf{ {{< meta coguide1.name >}} } |  | \textbf{  {{< meta coguide2.name >}}  } |
+| {{< meta coguide1.designation >}} |  | {{< meta coguide2.designation >}} |
+| {{< meta coguide1.department >}} |  | {{< meta coguide2.department >}} |
+| {{< meta institute-short-name >}} |  | {{< meta institute-short-name >}} |
+
+\begin{center}
+
+  \vspace{0.5em}
+\end{center}
+
+\vfill
+
+\noindent Date: {{< meta guide.date >}} \par
+
+\noindent Place: {{< meta institute >}} {{< meta city >}}
+
+
+<!-- Markdown tables have a horizontal rule here....best way is to have them converted to raw latex tables without `\toprule` and `\bottomrule` and for the word format...post processing can be done by mannually removing them....for html format a solution would be saught some other time. -->
+
+# Declaration By Candidate {-}
+
+\begin{center}
+  \includegraphics[width=1.8in]{aiims_patna_logo.jpeg}\par
+  \vspace{1em}
+  {\Large\bfseries {{< meta institute >}}, {{< meta city >}}\par}
+\end{center}
+
+\vspace{2em}
+I hereby declare that this thesis work entitled \textbf{ “ {{< meta title >}} ” }, submitted in the partial fulfillment of the requirement for the award of the degree {{< meta candidate.degree >}} in the subject of {{< meta candidate.subject >}} , {{< meta institute >}}, {{< meta city >}}, is a record of original work done by me under the supervision of {{< meta guide.name >}}.
+The information and data given in this research work is authenticated to the best of my knowledge. This research is not submitted to any other university or institution for the award of any degree, diploma, fellowship or published any time before.
+
+
+\vfill
+
+\begin{center}
+  \vspace{0.5em}
+  \includegraphics[width=4cm, angle=180]{assets/sign.png} \par
+\textbf{ {{< meta candidate.name >}}  }\par
+{{< meta candidate.session >}} \par
+
+\end{center}
+
+\vfill
+
+\noindent Date: {{< meta hod.date >}}\par
+\noindent Place: {{< meta institute >}} {{< meta city >}}
+
+
+

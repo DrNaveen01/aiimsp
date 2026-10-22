@@ -1,10 +1,31 @@
+::: {.content-visible when-format="docx"}
+::: {.text-center}
+![](aiims_patna_logo.jpeg){width="2.2in"}
 
-{{< include certificates.qmd  >}}
+**{{< meta title >}}**
+
+THESIS SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENT FOR THE AWARD OF THE DEGREE OF
+
+**{{< meta candidate.degree >}} ({{< meta candidate.subject >}})**
+
+**{{< meta institute >}}, {{< meta city >}}**
+
+Session: {{< meta candidate.session >}}
+
+By **{{< meta candidate.name >}}**
+
+{{< meta department >}}
+:::
+
+{{< pagebreak >}}
+:::
+
+{{< include certificates.qmd >}}
 
 # IEC Approval {.unnumbered}
 
 ::: center
-![](images/iec-front.png){width="95%" height="1.3\\textheight"}
+![](images/iec-front.png){width="95%" }
 :::
 
 
@@ -12,23 +33,23 @@
 {{< pagebreak >}}
 
 ::: center
-![](images/iec-back.png){width="95%" height="1.1\\textheight"}
+![](images/iec-back.png){width="95%" }
 :::
 
 # PGMRC Approval {.unnumbered}
 
 ::: center
-![](images/rac-front.png){width="95%" height="1.1\\textheight"}
+![](images/rac-front.png){width="95%" }
 :::
 
 ::: center
-![](images/rac-back.png){width="95%" height="1.1\\textheight"}
+![](images/rac-back.png){width="95%" }
 :::
 
 # Plagiarisum Check Report {.unnumbered}
 
 ::: center
-![](images/palgiarisum.png){width="95%" height="1.1\\textheight"}
+![](images/palgiarisum.png){width="95%" }
 :::
 
 # Acknowledgement {.unnumbered}
@@ -45,7 +66,7 @@ It is a better Idea that we use this file for:
 
 -   May be putting div for lua filter for certificates ? and toc ? lot? lof?
 
-\hrulefill
+---
 
 # List of Abbreviations {.unnumbered}
 
@@ -57,7 +78,7 @@ It is a better Idea that we use this file for:
 | 95% CI        | 95%Confidence Interval |
 
 
-\clearpage
-\tableofcontents
+{{< pagebreak >}}
 
-\pagenumbering{arabic}
+
+

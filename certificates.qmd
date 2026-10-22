@@ -10,7 +10,7 @@
 This is to certify that **{{< meta candidate.name >}}** is a postgraduate resident of {{< meta candidate.degree >}} {{< meta candidate.subject >}} course for the session {{< meta candidate.session >}}, and {{< meta candidate.pronoun >}} has independently carried out this thesis entitled **“{{< meta title >}}”** for {{< meta candidate.degree >}} in {{< meta candidate.subject >}} at {{< meta institute >}}, {{< meta city >}}, in {{< meta department >}}, under the guidance of {{< meta guide.name >}}.
 
 ::: {.content-visible when-format="pdf"}
-\\vfill
+\vfill
 :::
 
 ::: {.text-center}
@@ -43,7 +43,7 @@ Place: {{< meta institute >}}, {{< meta city >}}
 I hereby declare that this thesis work entitled **“{{< meta title >}}”**, submitted as a requirement for the award of the {{< meta candidate.degree >}} degree in {{< meta candidate.subject >}}, is the bona fide work of **{{< meta candidate.name >}}** of {{< meta institute >}}, {{< meta city >}}. This thesis work was carried out under our constant supervision and guidance and to my full satisfaction.
 
 ::: {.content-visible when-format="pdf"}
-\\vfill
+\vfill
 :::
 
 ::: {.text-center}
@@ -76,7 +76,7 @@ Place: {{< meta institute >}}, {{< meta city >}}
 I hereby declare that this thesis work entitled **“{{< meta title >}}”**, submitted as a requirement for the award of the {{< meta candidate.degree >}} degree in {{< meta candidate.subject >}}, is the bona fide work of **{{< meta candidate.name >}}** of {{< meta institute >}}, {{< meta city >}}. This thesis work was carried out under our constant supervision and guidance and to our full satisfaction.
 
 ::: {.content-visible when-format="pdf"}
-\\vfill
+\vfill
 :::
 
 ::: {layout-ncol=2}
@@ -116,7 +116,7 @@ I hereby declare that this thesis work entitled **“{{< meta title >}}”**, su
 The information and data given in this work are authentic to the best of my knowledge. This research has not been submitted to any other university or institution for an award of any degree, diploma, or fellowship, or published previously.
 
 ::: {.content-visible when-format="pdf"}
-\\vfill
+\vfill
 :::
 
 ::: {.text-center}

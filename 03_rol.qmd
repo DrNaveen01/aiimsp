@@ -1,6 +1,10 @@
 # Review of Literature
 
-![](images/rol.png){width="90%"}
+\vfill
+
+![](images/rol.png)
+
+\vfill
 
 {{< pagebreak >}}
 

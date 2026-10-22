@@ -1,6 +1,6 @@
 # AIIMS Patna Thesis Template
 
-This Quarto template provides the standard structure and metadata required to render an AIIMS Patna thesis as a PDF or editable Word document. The Word format uses the bundled `reference.docx` for styles. Configure the thesis by editing `_quarto.yml` or by copying and adapting `_example.yml`.
+This Quarto template provides the standard structure and metadata required to render an AIIMS Patna thesis as a PDF. Configure the thesis by editing `_quarto.yml` or by copying and adapting `_example.yml`.
 
 ## Complete configuration
 
@@ -75,7 +75,7 @@ These keys are built into Quarto and control the project, document structure, ge
 | `title` | Sets the full thesis title. | Text enclosed in quotation marks. |
 | `author` | Sets the document author in Quarto metadata. | Candidate's full name. |
 | `date` | Controls the document date. | `last-modified` updates from the source file modification date; a fixed date may also be supplied. |
-| `format` | Selects the output format. | Use `aiimsp-pdf: default` for PDF and `aiimsp-docx: default` for Word. |
+| `format` | Selects the output format. | Keep `aiimsp-pdf: default` to use this extension. |
 | `bibliography` | Identifies the BibTeX bibliography file. | Path to a `.bib` file, such as `references.bib`. |
 
 The order under `book.chapters` is the order used in the final thesis. Every listed file must exist in the project.
@@ -146,14 +146,3 @@ quarto render
 ```
 
 The `aiimsp-pdf` format must be installed and available to the project before rendering.
-
-
-## Word output
-
-The extension registers `aiimsp-docx` and uses `_extensions/aiimsp/reference.docx` as its Word style reference. From the project directory:
-
-```bash
-quarto render --to aiimsp-docx
-```
-
-To generate the PDF instead, use `quarto render --to aiimsp-pdf`. The Word output shares the chapter source, bibliography and Vancouver superscript CSL with the PDF output. Word styles can be adjusted in `reference.docx`. PDF-specific LaTeX title pages, certificates and pagination are not transferred to DOCX automatically; provide Word-compatible front matter in editable `.qmd` files and validate the final document manually.

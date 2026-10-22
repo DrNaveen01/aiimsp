@@ -278,6 +278,9 @@
 \newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \makeatother
 \makeatletter
+\usepackage{pdflscape}
+\makeatother
+\makeatletter
 \makeatother
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -637,19 +640,37 @@ Hb & Hemoglobin \\
 
 \chapter{Introduction}\label{introduction}
 
+\vfill
+
 \pandocbounded{\includegraphics[keepaspectratio]{images/introduction.png}}
+
+\vfill
+
+\newpage{}
 
 \bookmarksetup{startatroot}
 
 \chapter{Aims \& Objective}\label{aims-objective}
 
+\vfill
+
 \pandocbounded{\includegraphics[keepaspectratio]{images/aim.png}}
+
+\vfill
+
+\newpage{}
 
 \bookmarksetup{startatroot}
 
 \chapter{Review of Literature}\label{review-of-literature}
 
+\vfill
+
 \pandocbounded{\includegraphics[keepaspectratio]{images/rol.png}}
+
+\vfill
+
+\newpage{}
 
 \section{Search Strategy}\label{search-strategy}
 
@@ -697,9 +718,32 @@ measures}\label{secondary-outcome-measures}
 
 \section{Study Tools}\label{study-tools}
 
+\newpage{}
+
 \section{Data Collection}\label{data-collection}
 
+\begin{figure}[H]
+
+\centering{
+
+\includegraphics[width=4.91in,height=8.73in]{04_methodology_files/figure-latex/mermaid-figure-1.png}
+
+}
+
+\caption{\label{fig-study-flow}Schematic representation of data
+collection process}
+
+\end{figure}%
+
+\newpage{}
+
+\section{Operational Definitions}\label{operational-definitions}
+
+\begin{landscape}
+
 \section{Gantt Chart}\label{gantt-chart}
+
+\end{landscape}
 
 \section{Statistical Analysis}\label{statistical-analysis}
 
@@ -707,7 +751,13 @@ measures}\label{secondary-outcome-measures}
 
 \chapter{Results}\label{results}
 
+\vfill
+
 \pandocbounded{\includegraphics[keepaspectratio]{images/results.png}}
+
+\vfill
+
+\newpage{}
 
 \section{Consort Diagram}\label{consort-diagram}
 
@@ -719,7 +769,13 @@ measures}\label{secondary-outcome-measures}
 
 \chapter{Discussion}\label{discussion}
 
+\vfill
+
 \pandocbounded{\includegraphics[keepaspectratio]{images/discussion.png}}
+
+\vfill
+
+\newpage{}
 
 \bookmarksetup{startatroot}
 

@@ -39,8 +39,43 @@
 
 ## Study Tools
 
+
+{{< pagebreak >}}
+
 ## Data Collection
 
+```{mermaid}
+%%| label: fig-study-flow
+%%| fig-cap: Schematic representation of data collection process
+
+flowchart TD
+A[Obtaining informed consent<br/>Screening of participants]
+B[Assessment of eligibility criteria]
+X[Not enrolled]
+C[Enrollment in the study]
+D[Baseline data collection<br/>and randomization]
+D1[Group A]
+D2[Group B]
+E[Intraoperative data collection]
+F[Postoperative assessment<br/>Data collection and entry]
+
+A --> B
+B -->|Eligible| C --> D
+B -->|Not eligible| X
+D --> D1 --> E --> F
+D --> D2 --> E
+```
+
+{{< pagebreak >}}
+
+## Operational Definitions
+
+::: {.landscape}
+
 ## Gantt Chart
+
+:::
+
+
 
 ## Statistical Analysis

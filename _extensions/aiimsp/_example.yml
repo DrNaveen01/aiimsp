@@ -54,5 +54,6 @@ department: "Department of Community And Family Medicine"
 
 format:
   aiimsp-pdf: default
+  aiimsp-docx: default
 
 bibliography: references.bib

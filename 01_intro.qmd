@@ -1,5 +1,9 @@
 # Introduction
 
-![](images/introduction.png){width="90%"}
+\vfill
+
+![](images/introduction.png)
+
+\vfill
 
 {{< pagebreak >}}

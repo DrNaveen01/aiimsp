@@ -1,1 +1,7 @@
-<!-- TOC, list of tables and list of figures are managed by the output format. Do not add raw LaTeX commands here: those are ignored by DOCX and duplicate the PDF TOC. -->
+
+\tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
+

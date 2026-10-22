@@ -14,7 +14,7 @@ site_libs/
 
 # Rendered outputs
 *.pdf
-*.docx
+!*.docx
 *.html
 !*.tex
 

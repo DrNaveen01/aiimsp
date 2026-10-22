@@ -20,6 +20,7 @@ contributes:
       csl: vancouver-superscript.csl
       cite-method: citeproc
       citeproc: true
+      link-citation: true
         
     pdf:
       pdf-engine: xelatex
@@ -34,6 +35,7 @@ contributes:
         
     html:
       embed-resources: true
+      
 
   
 

@@ -12,7 +12,7 @@ contributes:
       linestretch: 1.5
       number-sections: true
       toc-depth: 2
-      toc: false
+      toc: true
       keep-tex: true
       secnumdepth: 3
       fig-pos: "H"
@@ -40,6 +40,7 @@ contributes:
       csl: vancouver-superscript.csl
       cite-method: citeproc
       format-resources:
+        - aiims_patna_logo.jpeg
         - reference.docx
         - vancouver-superscript.csl
 

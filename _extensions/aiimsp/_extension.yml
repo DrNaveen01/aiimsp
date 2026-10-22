@@ -33,6 +33,16 @@ contributes:
         - aiims_patna_logo.jpeg
         - vancouver-superscript.csl
         
+    docx:
+      reference-doc: reference.docx
+      toc: true
+      number-sections: true
+      csl: vancouver-superscript.csl
+      cite-method: citeproc
+      format-resources:
+        - reference.docx
+        - vancouver-superscript.csl
+
     html:
       embed-resources: true
       

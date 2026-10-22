@@ -4,11 +4,23 @@ project:
 book:
   chapters:
     - index.qmd
-    - intro.qmd
+    - 01_intro.qmd
+    - 02_aims_objectives.qmd
+    - 03_rol.qmd
+    - 04_methodology.qmd
+    - 05_results.qmd
+    - 06_discussion.qmd
+    - 07_strengths_limitations.qmd
+    - 08_conclusion.qmd
+    - 09_recomendations.qmd
     - summary.qmd
     - references.qmd
   appendices: 
-    - hindi.qmd
+    - pis_english.qmd
+    - pis_hindi.qmd
+    - picf_english.qmd
+    - picf_hindi.qmd
+    - data_collection_proforma.qmd
 
 title: "Estimation Of Prevalence And Factors Associated With Developmental Delay In Under Five Children Residing In Selected Urban Slums Of Patna: A Community Based Cross Sectional Study"
 
@@ -58,3 +70,5 @@ format:
   aiimsp-pdf: default
 
 bibliography: references.bib
+link-bibliography: true
+link-citations: true

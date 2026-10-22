@@ -1,0 +1,9 @@
+# Discussion
+
+\vfill
+
+![](images/discussion.png)
+
+\vfill
+
+{{< pagebreak >}}

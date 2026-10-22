@@ -1,0 +1,46 @@
+# Methodology
+
+\vfill
+
+![](images/methodology.png)
+
+\vfill
+
+{{< pagebreak >}}
+
+
+## Ethical Approval
+
+## CTRI Registration
+
+## Study Design, Setting & Duration
+
+## Study Population
+
+## Eligibility Criteria
+
+## Sampling
+
+### Sample size
+
+### Sampling technique
+
+## Study Groups
+
+## Randomization & Blinding
+
+## Surgical Procedure
+
+## Outcome Measures
+
+### Primary outcome measures
+
+### Secondary outcome measures
+
+## Study Tools
+
+## Data Collection
+
+## Gantt Chart
+
+## Statistical Analysis

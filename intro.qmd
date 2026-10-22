@@ -1,9 +1,0 @@
-# Introduction
-
-This is a book created from markdown and executable code.
-
-this is for dummy citation. @ahmed2024
-
-```{r}
-1 + 1
-```

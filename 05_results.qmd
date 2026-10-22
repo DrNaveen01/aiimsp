@@ -1,0 +1,15 @@
+# Results
+
+\vfill
+
+![](images/results.png)
+
+\vfill
+
+{{< pagebreak >}}
+
+## Consort Diagram
+
+## Descriptive Statistics
+
+## Inferential Analysis

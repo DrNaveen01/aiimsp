@@ -35,3 +35,6 @@ site_libs/
 # Operating-system files
 .DS_Store
 Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb

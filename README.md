@@ -241,6 +241,12 @@ thesis-project/
 
 Use spaces for YAML indentation. Do not use tabs. Quote values containing punctuation, special characters, or text-form dates.
 
+## Shared-source layout and numbering
+
+The source now uses Quarto page breaks, images and layout divs for front matter; raw `\\tableofcontents` was removed to prevent a duplicate TOC. Headings with `{.unnumbered}` remain explicitly unnumbered. The co-guide declaration uses a `layout-ncol=2` div instead of a Markdown table. The DOCX cover logo is authored as Word-visible Quarto content, while PDF retains its existing LaTeX title page.
+
+**Word reference document:** The checked-in `reference.docx` still requires replacement with the revised Word style reference containing the olive-green page border. The GitHub file editing connection does not accept binary Word uploads. Until that file is replaced, the green border will not appear in DOCX. Full PDF/DOCX render parity has not been verified.
+
 ## Word (DOCX) format
 
 The `aiimsp-docx` format uses the committed `_extensions/aiimsp/reference.docx` as Pandoc's Word reference document. Edit its Word styles (Normal, Heading 1–3, captions, tables, headers and footers) to change Word formatting without changing thesis source files. DOCX does **not** execute the PDF-specific `partials/title.tex`, LaTeX packages or PDF title/certificate construction; author Word-compatible cover, certificates, declarations and section separators as ordinary `.qmd` content if required. PDF-only signature files such as `.pdf` may need Word-compatible images.

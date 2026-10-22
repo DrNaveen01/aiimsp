@@ -1,5 +1,9 @@
 # Aims & Objective
 
-![](images/aim.png){width="90%"}
+\vfill
+
+![](images/aim.png)
+
+\vfill
 
 {{< pagebreak >}}
